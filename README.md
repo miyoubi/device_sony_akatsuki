@@ -1,5 +1,5 @@
-# Device Tree for Xperia XZ3 (akatsuki)
-The Xperia (codenamed _"akatsuki"_) is a smartphone from Sony Mobile.
+# Device Tree for Xperia XZ3 (akatsuki-kddi)
+The Xperia (codenamed _"akatsuki-kddi"_) is a smartphone from Sony Mobile.
 It was released in 2018.
 
 | Basic                   | Spec Sheet                                                                                                                     |

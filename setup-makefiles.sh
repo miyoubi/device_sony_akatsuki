@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=akatsuki
+export DEVICE=akatsuki_kddi
 export DEVICE_COMMON=tama-common
 export VENDOR=sony
 

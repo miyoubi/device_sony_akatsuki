@@ -5,15 +5,15 @@
 #
 
 # Inherit from tama-common
--include device/sony/tama-common/BoardConfigCommon.mk
+-include device/sony/tama-common-kddi/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/akatsuki
+DEVICE_PATH := device/sony/akatsuki_kddi
 
 # Display
 TARGET_SCREEN_DENSITY := 480
 
 # Kernel
-TARGET_KERNEL_CONFIG := tama_akatsuki_defconfig
+TARGET_KERNEL_CONFIG := tama_akatsuki_kddi_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

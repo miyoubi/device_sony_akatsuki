@@ -4,14 +4,14 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from akatsuki device
-$(call inherit-product, device/sony/akatsuki/device.mk)
+# Inherit from akatsuki_kddi device
+$(call inherit-product, device/sony/akatsuki_kddi/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_akatsuki
-PRODUCT_DEVICE := akatsuki
+PRODUCT_NAME := lineage_akatsuki_kddi
+PRODUCT_DEVICE := akatsuki_kddi
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia XZ3
