@@ -1,35 +1,25 @@
-# Device Tree for Xperia XZ3 (akatsuki)
-The Xperia (codenamed _"akatsuki"_) is a smartphone from Sony Mobile.
-It was released in 2018.
+# Device Tree for the Xperia XZ3
 
-| Basic                   | Spec Sheet                                                                                                                     |
-| -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
-| CPU                     | Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)                                                                |
-| Chipset                 | Qualcomm SDM845 Snapdragon 845                                                                                                 |
-| GPU                     | Adreno 630                                                                                                                     |
-| Memory                  | 4/6 GB RAM                                                                                                                     |
-| Shipped Android Version | 9.0                                                                                                                            |
-| Storage                 | 64 GB                                                                                                                  |
-| Battery                 | Non-removable Li-Po 3300 mAh battery                                                                                           |
-| Display                 | Toppest p-OLED, 1440 x 2880 pixels, 18:9 ratio (~537 ppi density)                                                                |
-| Camera (Back)           | 19 MP (f/2.0, 25mm, 1/2.3", 1.22 µm), gyro EIS, predictive phase detection and laser AF, LED flash, 4K at 30fps, 1080p at 30, 60fps or 960fps |
-| Camera (Front)          | 13 MP (f/1.9, 1/3.1"), gyro EIS, 1080p                                                                    |
+The Xperia XZ3 (Codenamed "akatsuki") is a flagship smartphone from Sony released in October 2018.
 
-Copyright 2018 - The LineageOS Project.
+## Device Specifications
 
-![Xperia XZ3](https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-xz3-1.jpg "Xperia XZ3")
+| Feature                 | Specification                                                                       |
+| :---------------------- | :-----------------------------------------------------------------------------------|
+| Chipset                 | Qualcomm® Snapdragon™ 845 (10 nm)                                                   |
+| CPU                     | Octa-Core (4x 2.7 GHz Kryo 385 Gold & 4x 1.7 GHz Kryo 385 Silver)                   |
+| GPU                     | Adreno 630                                                                          |
+| Memory                  | 4/6 GB LPDDR4X RAM                                                                  |
+| Shipped Android Version | 9                                                                                   |
+| Storage                 | 64 GB UFS 2.1 (Expandable with Micro SDCard)                                        |
+| SIM                     | Single/Dual SIM (1/2x Nano-SIMs)                                                    |
+| Battery                 | 3300 mAh Li-Po (Non-Removable), 18W Wired Fast Charging, 10W Wireless Fast Charging |
+| Dimensions              | 158 x 73 x 9.9 mm (6.22 x 2.87 x 0.39 in)                                           |
+| Display                 | 6.0 inch, 1440 x 2880 pixels, TRILUMINOS, X-Reality, P-OLED, HDR10                  |
+| Camera                  | 19 MP (Main), 13 MP (Front)                                                         |
+| Fingerprint             | Back Side, under the camera (Rear-Mounted)                                          |
+| Sensors                 | Accelerometer, Gyro, Proximity, Barometer, Compass, Color Spectrum                  |
 
+## Device Picture
 
-## Temporary build instructions
-
-```
-# Compiling
-$ m[ake|ka] bootimage systemimage
-
-# Installing
-$ fastboot --disable-verity --disable-verification flash vbmeta stock_vbmeta.img
-$ fastboot flash boot boot.img
-$ fastboot flash system system.img
-$ fastboot -w reboot
-```
-
+![Xperia XZ3](https://i.imgur.com/pCdghSV.png)
