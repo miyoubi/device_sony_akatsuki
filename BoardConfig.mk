@@ -27,4 +27,5 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
 # Inherit from vendor_sony_tama
+include vendor/sony/tama/common-felica/BoardConfigVendor.mk
 include vendor/sony/tama/akatsuki/BoardConfigVendor.mk
